@@ -1,0 +1,26 @@
+// Theme Variables (CSS Custom Properties for runtime switching)
+:root {
+  // Dark theme (default)
+  --color-bg: #1a1a2e;
+  --color-bg-alt: #16213e;
+  --color-surface: #1f2942;
+  --color-text: #ffffff;
+  --color-text-muted: #a0a0a0;
+  --color-accent-1: #00d9ff;
+  --color-accent-2: #00ff88;
+  --color-border: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="light"] {
+  --color-bg: #f5f7fa;
+  --color-bg-alt: #e8ecf1;
+  --color-surface: #ffffff;
+  --color-text: #1a1a2e;
+  --color-text-muted: #5a6270;
+  --color-accent-1: #0099cc;
+  --color-accent-2: #00b36b;
+  --color-border: rgba(0, 0, 0, 0.1);
+}
+
+// Static Variables
+$font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;

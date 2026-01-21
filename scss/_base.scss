@@ -1,0 +1,20 @@
+// Base styles
+body {
+  font-family: $font-stack;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-bg-alt) 100%);
+  color: var(--color-text);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--color-accent-1);
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--color-accent-2);
+  }
+}

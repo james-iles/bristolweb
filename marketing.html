@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Marketing | Bristol Web</title>
+  <meta name="description" content="Digital marketing services in Bristol. SEO, social media, and paid advertising to grow your business online.">
+  <link rel="canonical" href="https://bristolweb.dev/marketing">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="theme-toggle-btn">I was born in the dark</button>
+  </div>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-form">
+        <h2>Let's grow together</h2>
+        <p class="form-intro">Tell us about your marketing goals and we'll create a plan to get you there.</p>
+
+        <form name="marketing" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="marketing">
+          <p style="display:none;">
+            <label>Don't fill this out: <input name="bot-field"></label>
+          </p>
+
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="service">What do you need?</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option value="seo">SEO</option>
+              <option value="social-media">Social Media Management</option>
+              <option value="paid-ads">Paid Advertising</option>
+              <option value="content">Content Marketing</option>
+              <option value="full-package">Full Package</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Tell us about your business</label>
+            <textarea id="message" name="message" placeholder="What are your marketing goals?" required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit">Send enquiry</button>
+        </form>
+
+        <div class="back-link">
+          <a href="index.html">&larr; Back to home</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Bristol Web. Based in Bristol, working worldwide.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

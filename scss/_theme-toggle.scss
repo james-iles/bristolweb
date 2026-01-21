@@ -1,0 +1,24 @@
+// Theme Toggle
+.theme-toggle {
+  position: fixed;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 100;
+
+  button {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    color: var(--color-text-muted);
+    padding: 0.75rem 1rem;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: $font-stack;
+
+    &:hover {
+      color: var(--color-accent-1);
+      border-color: var(--color-accent-1);
+    }
+  }
+}

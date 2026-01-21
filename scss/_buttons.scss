@@ -1,0 +1,41 @@
+// Buttons
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, var(--color-accent-1), var(--color-accent-2));
+  color: #1a1a2e;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(0, 217, 255, 0.3);
+    color: #1a1a2e;
+  }
+}
+
+.btn-secondary {
+  background: transparent;
+  border-color: var(--color-accent-1);
+  color: var(--color-accent-1);
+
+  &:hover {
+    background: rgba(0, 217, 255, 0.1);
+    transform: translateY(-2px);
+  }
+}
