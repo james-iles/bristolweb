@@ -1,12 +1,12 @@
 // Bristol Web - Main Stylesheet
-// Import order matters: variables first, then reset, then components
+// Using modern @use syntax (Dart Sass 2.0+)
 
-@import 'variables';
-@import 'reset';
-@import 'base';
-@import 'layout';
-@import 'theme-toggle';
-@import 'hero';
-@import 'buttons';
-@import 'forms';
-@import 'footer';
+@use 'variables' as *;
+@use 'reset';
+@use 'base';
+@use 'layout';
+@use 'theme-toggle';
+@use 'hero';
+@use 'buttons';
+@use 'forms';
+@use 'footer';

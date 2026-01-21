@@ -1,6 +1,8 @@
+@use 'variables' as *;
+
 // Base styles
 body {
-  font-family: $font-stack;
+  font-family: $font-body;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,4 +19,8 @@ a {
   &:hover {
     color: var(--color-accent-2);
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
 }

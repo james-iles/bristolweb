@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 // Buttons
 .cta-buttons {
   display: flex;
@@ -9,6 +11,7 @@
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
+  font-family: $font-heading;
   font-size: 1rem;
   font-weight: 600;
   border-radius: 8px;

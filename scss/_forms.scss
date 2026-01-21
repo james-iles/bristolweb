@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 // Contact Form
 .contact-section {
   padding: 4rem 0;
@@ -46,7 +48,7 @@
     border-radius: 8px;
     color: var(--color-text);
     font-size: 1rem;
-    font-family: $font-stack;
+    font-family: $font-body;
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
 
     &:focus {
@@ -77,6 +79,7 @@
   color: #1a1a2e;
   border: none;
   border-radius: 8px;
+  font-family: $font-heading;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
